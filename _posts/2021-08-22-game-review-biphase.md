@@ -1,5 +1,5 @@
 ---
-date: 2021-08-20 12:34:56
+date: 2021-08-22 19:47:00
 layout: post
 title: "[게임 리뷰]Biphase"
 image: https://cdn.cloudflare.steamstatic.com/steam/apps/1541830/capsule_616x353.jpg?t=1624001727
