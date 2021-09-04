@@ -9,3 +9,4 @@ gem "jekyll-paginate-content"
 gem "json"
 gem 'wdm'
 gem 'webrick'
+gem 'jekyll-sitemap'
