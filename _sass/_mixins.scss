@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&display=swap');
+
 @mixin mainFont($weight: 700) {
-  font-family: "Titillium Web", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Titillium Web", "IBM Plex Sans KR", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: $weight;
   font-style: normal;
 }
