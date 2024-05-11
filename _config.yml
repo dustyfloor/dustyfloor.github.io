@@ -14,8 +14,9 @@ menu:
     url: /
   - title: About
     url: /about
-  - title: Category
-    url: /category
+  #- title: Category
+  #  url: /category 
+  #태그가 있는데 카테고리가 굳이 또 필요할까? 일단 지워놓자
   - title: Tags
     url: /tags
 email: 
