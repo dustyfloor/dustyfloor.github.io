@@ -4,6 +4,17 @@
       <li>
         <a href="{{ site.url }}{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
       </li>
+      {% if item.title == "Tags" %}
+
+        {% assign tags_list = site.tags %}
+          {%for tag in tags_list %}
+            <li>
+              <a href= "{{site.url}}{{site.baseurl}}/tags/#{{tag[0]|slugify}}"> - #{{tag[0]}}</a>
+            </li>
+          {% endfor %}
+        {% assign tags_list = nil %}
+      
+      {% endif %}
     {% endif %}
   {% endfor %}
 </ul>
